@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570A66331FFDD37600B3CBEC /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A66321FFDD37600B3CBEC /* BaseTableView.m */; };
+		570A66361FFDFC9C00B3CBEC /* AnimationVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A66351FFDFC9C00B3CBEC /* AnimationVC2.m */; };
+		57A846BC2004AD8B0011B3A2 /* ZZClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846BB2004AD8B0011B3A2 /* ZZClockView.m */; };
+		57A846BF2004AF080011B3A2 /* AnimationVC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846BE2004AF080011B3A2 /* AnimationVC8.m */; };
+		57A846C22004B6A90011B3A2 /* ZZClockNumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846C12004B6A90011B3A2 /* ZZClockNumItem.m */; };
+		57A846C52005B8520011B3A2 /* AnimationVC9.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846C42005B8520011B3A2 /* AnimationVC9.m */; };
+		57A846C82005BCC00011B3A2 /* ZZPendulumClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846C72005BCC00011B3A2 /* ZZPendulumClockView.m */; };
+		57A846CB2006167C0011B3A2 /* ZZWaterBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846CA2006167C0011B3A2 /* ZZWaterBallView.m */; };
+		57AAF3CB1FFCBEA800C75E4B /* AnimationVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AAF3CA1FFCBEA800C75E4B /* AnimationVC1.m */; };
+		57B44BDB20031A67003F468E /* AnimationVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BDA20031A67003F468E /* AnimationVC4.m */; };
+		57B44BDF20031F23003F468E /* xzq1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BDD20031F23003F468E /* xzq1.jpg */; };
+		57B44BE1200320A8003F468E /* xzq2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BE0200320A8003F468E /* xzq2.jpg */; };
+		57B44BE420032B20003F468E /* AnimationVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BE320032B20003F468E /* AnimationVC5.m */; };
+		57B44BE720034DDF003F468E /* AnimationVC6.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BE620034DDF003F468E /* AnimationVC6.m */; };
+		57B44BF020035ACF003F468E /* octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BE820035ACE003F468E /* octocat.png */; };
+		57B44BF120035ACF003F468E /* yurt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BE920035ACE003F468E /* yurt2.png */; };
+		57B44BF220035ACF003F468E /* octocat-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BEA20035ACE003F468E /* octocat-shadow.png */; };
+		57B44BF320035ACF003F468E /* ship-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BEB20035ACE003F468E /* ship-shadow.png */; };
+		57B44BF420035ACF003F468E /* yurt1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BEC20035ACE003F468E /* yurt1.png */; };
+		57B44BF520035ACF003F468E /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BED20035ACE003F468E /* ship.png */; };
+		57B44BF620035ACF003F468E /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BEE20035ACE003F468E /* bg.jpeg */; };
+		57B44BF720035ACF003F468E /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B44BEF20035ACF003F468E /* text.png */; };
+		57B44BFD2003691F003F468E /* AnimationVC7.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BFC2003691F003F468E /* AnimationVC7.m */; };
+		57B44C002003693C003F468E /* Animation7PopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BFF2003693C003F468E /* Animation7PopVC.m */; };
+		57B44C032003699B003F468E /* JumpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44C022003699B003F468E /* JumpManager.m */; };
+		57C3CDC81FFE59BB00D53DA4 /* ZZSelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDC71FFE59BB00D53DA4 /* ZZSelectTableView.m */; };
+		57C3CDCB1FFE5A5A00D53DA4 /* ZZSelectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDCA1FFE5A5A00D53DA4 /* ZZSelectTableCell.m */; };
+		57C3CDCE1FFF316600D53DA4 /* ZZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDCD1FFF316600D53DA4 /* ZZModel.m */; };
+		57C3CDD01FFF5EEA00D53DA4 /* gg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C3CDCF1FFF5EEA00D53DA4 /* gg.jpg */; };
+		57C3CDD31FFF7DA700D53DA4 /* AnimationVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDD21FFF7DA700D53DA4 /* AnimationVC3.m */; };
+		57D286421F9DD7BF0024D9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D286411F9DD7BF0024D9F7 /* main.m */; };
+		57D286451F9DD7BF0024D9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D286441F9DD7BF0024D9F7 /* AppDelegate.m */; };
+		57D2864E1F9DD7BF0024D9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D2864C1F9DD7BF0024D9F7 /* Main.storyboard */; };
+		57D286501F9DD7BF0024D9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2864F1F9DD7BF0024D9F7 /* Assets.xcassets */; };
+		57D286531F9DD7BF0024D9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D286511F9DD7BF0024D9F7 /* LaunchScreen.storyboard */; };
+		57D2865F1F9DD85D0024D9F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D2865E1F9DD85D0024D9F7 /* ViewController.m */; };
+		57D286651F9DE6080024D9F7 /* ZZAnimation1.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D286641F9DE6080024D9F7 /* ZZAnimation1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570A66311FFDD37600B3CBEC /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		570A66321FFDD37600B3CBEC /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		570A66341FFDFC9C00B3CBEC /* AnimationVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AnimationVC2.h; path = ../../../../AnimationVC2.h; sourceTree = "<group>"; };
+		570A66351FFDFC9C00B3CBEC /* AnimationVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AnimationVC2.m; path = ../../../../AnimationVC2.m; sourceTree = "<group>"; };
+		57A846BA2004AD8B0011B3A2 /* ZZClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZClockView.h; sourceTree = "<group>"; };
+		57A846BB2004AD8B0011B3A2 /* ZZClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZClockView.m; sourceTree = "<group>"; };
+		57A846BD2004AF080011B3A2 /* AnimationVC8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC8.h; sourceTree = "<group>"; };
+		57A846BE2004AF080011B3A2 /* AnimationVC8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC8.m; sourceTree = "<group>"; };
+		57A846C02004B6A90011B3A2 /* ZZClockNumItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZClockNumItem.h; sourceTree = "<group>"; };
+		57A846C12004B6A90011B3A2 /* ZZClockNumItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZClockNumItem.m; sourceTree = "<group>"; };
+		57A846C32005B8520011B3A2 /* AnimationVC9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC9.h; sourceTree = "<group>"; };
+		57A846C42005B8520011B3A2 /* AnimationVC9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC9.m; sourceTree = "<group>"; };
+		57A846C62005BCC00011B3A2 /* ZZPendulumClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPendulumClockView.h; sourceTree = "<group>"; };
+		57A846C72005BCC00011B3A2 /* ZZPendulumClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPendulumClockView.m; sourceTree = "<group>"; };
+		57A846C92006167C0011B3A2 /* ZZWaterBallView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZWaterBallView.h; sourceTree = "<group>"; };
+		57A846CA2006167C0011B3A2 /* ZZWaterBallView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWaterBallView.m; sourceTree = "<group>"; };
+		57AAF3C91FFCBEA800C75E4B /* AnimationVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC1.h; sourceTree = "<group>"; };
+		57AAF3CA1FFCBEA800C75E4B /* AnimationVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC1.m; sourceTree = "<group>"; };
+		57B44BD920031A67003F468E /* AnimationVC4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC4.h; sourceTree = "<group>"; };
+		57B44BDA20031A67003F468E /* AnimationVC4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC4.m; sourceTree = "<group>"; };
+		57B44BDD20031F23003F468E /* xzq1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xzq1.jpg; sourceTree = "<group>"; };
+		57B44BE0200320A8003F468E /* xzq2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xzq2.jpg; sourceTree = "<group>"; };
+		57B44BE220032B20003F468E /* AnimationVC5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC5.h; sourceTree = "<group>"; };
+		57B44BE320032B20003F468E /* AnimationVC5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC5.m; sourceTree = "<group>"; };
+		57B44BE520034DDF003F468E /* AnimationVC6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC6.h; sourceTree = "<group>"; };
+		57B44BE620034DDF003F468E /* AnimationVC6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC6.m; sourceTree = "<group>"; };
+		57B44BE820035ACE003F468E /* octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octocat.png; sourceTree = "<group>"; };
+		57B44BE920035ACE003F468E /* yurt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yurt2.png; sourceTree = "<group>"; };
+		57B44BEA20035ACE003F468E /* octocat-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "octocat-shadow.png"; sourceTree = "<group>"; };
+		57B44BEB20035ACE003F468E /* ship-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-shadow.png"; sourceTree = "<group>"; };
+		57B44BEC20035ACE003F468E /* yurt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yurt1.png; sourceTree = "<group>"; };
+		57B44BED20035ACE003F468E /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		57B44BEE20035ACE003F468E /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		57B44BEF20035ACF003F468E /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		57B44BFB2003691F003F468E /* AnimationVC7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC7.h; sourceTree = "<group>"; };
+		57B44BFC2003691F003F468E /* AnimationVC7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC7.m; sourceTree = "<group>"; };
+		57B44BFE2003693C003F468E /* Animation7PopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation7PopVC.h; sourceTree = "<group>"; };
+		57B44BFF2003693C003F468E /* Animation7PopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation7PopVC.m; sourceTree = "<group>"; };
+		57B44C012003699B003F468E /* JumpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpManager.h; sourceTree = "<group>"; };
+		57B44C022003699B003F468E /* JumpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpManager.m; sourceTree = "<group>"; };
+		57C3CDC61FFE59BB00D53DA4 /* ZZSelectTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSelectTableView.h; sourceTree = "<group>"; };
+		57C3CDC71FFE59BB00D53DA4 /* ZZSelectTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSelectTableView.m; sourceTree = "<group>"; };
+		57C3CDC91FFE5A5A00D53DA4 /* ZZSelectTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSelectTableCell.h; sourceTree = "<group>"; };
+		57C3CDCA1FFE5A5A00D53DA4 /* ZZSelectTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSelectTableCell.m; sourceTree = "<group>"; };
+		57C3CDCC1FFF316600D53DA4 /* ZZModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZModel.h; sourceTree = "<group>"; };
+		57C3CDCD1FFF316600D53DA4 /* ZZModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZModel.m; sourceTree = "<group>"; };
+		57C3CDCF1FFF5EEA00D53DA4 /* gg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gg.jpg; sourceTree = "<group>"; };
+		57C3CDD11FFF7DA700D53DA4 /* AnimationVC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC3.h; sourceTree = "<group>"; };
+		57C3CDD21FFF7DA700D53DA4 /* AnimationVC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC3.m; sourceTree = "<group>"; };
+		57D2863D1F9DD7BF0024D9F7 /* ZZAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D286411F9DD7BF0024D9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57D286431F9DD7BF0024D9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57D286441F9DD7BF0024D9F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57D2864D1F9DD7BF0024D9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D2864F1F9DD7BF0024D9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D286521F9DD7BF0024D9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D286541F9DD7BF0024D9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D2865D1F9DD85D0024D9F7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57D2865E1F9DD85D0024D9F7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57D286631F9DE6080024D9F7 /* ZZAnimation1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAnimation1.h; sourceTree = "<group>"; };
+		57D286641F9DE6080024D9F7 /* ZZAnimation1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAnimation1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D2863A1F9DD7BF0024D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57AAF3C81FFCBE9600C75E4B /* AnimationVC */ = {
+			isa = PBXGroup;
+			children = (
+				57C3CDCC1FFF316600D53DA4 /* ZZModel.h */,
+				57C3CDCD1FFF316600D53DA4 /* ZZModel.m */,
+				570A66311FFDD37600B3CBEC /* BaseTableView.h */,
+				570A66321FFDD37600B3CBEC /* BaseTableView.m */,
+				57C3CDC61FFE59BB00D53DA4 /* ZZSelectTableView.h */,
+				57C3CDC71FFE59BB00D53DA4 /* ZZSelectTableView.m */,
+				57C3CDC91FFE5A5A00D53DA4 /* ZZSelectTableCell.h */,
+				57C3CDCA1FFE5A5A00D53DA4 /* ZZSelectTableCell.m */,
+				57AAF3C91FFCBEA800C75E4B /* AnimationVC1.h */,
+				57AAF3CA1FFCBEA800C75E4B /* AnimationVC1.m */,
+				570A66341FFDFC9C00B3CBEC /* AnimationVC2.h */,
+				570A66351FFDFC9C00B3CBEC /* AnimationVC2.m */,
+				57C3CDD11FFF7DA700D53DA4 /* AnimationVC3.h */,
+				57C3CDD21FFF7DA700D53DA4 /* AnimationVC3.m */,
+				57B44BD920031A67003F468E /* AnimationVC4.h */,
+				57B44BDA20031A67003F468E /* AnimationVC4.m */,
+				57B44BE220032B20003F468E /* AnimationVC5.h */,
+				57B44BE320032B20003F468E /* AnimationVC5.m */,
+				57B44BE520034DDF003F468E /* AnimationVC6.h */,
+				57B44BE620034DDF003F468E /* AnimationVC6.m */,
+				57B44BFB2003691F003F468E /* AnimationVC7.h */,
+				57B44BFC2003691F003F468E /* AnimationVC7.m */,
+				57B44BFE2003693C003F468E /* Animation7PopVC.h */,
+				57B44BFF2003693C003F468E /* Animation7PopVC.m */,
+				57B44C012003699B003F468E /* JumpManager.h */,
+				57B44C022003699B003F468E /* JumpManager.m */,
+				57A846BD2004AF080011B3A2 /* AnimationVC8.h */,
+				57A846BE2004AF080011B3A2 /* AnimationVC8.m */,
+				57A846BA2004AD8B0011B3A2 /* ZZClockView.h */,
+				57A846BB2004AD8B0011B3A2 /* ZZClockView.m */,
+				57A846C02004B6A90011B3A2 /* ZZClockNumItem.h */,
+				57A846C12004B6A90011B3A2 /* ZZClockNumItem.m */,
+				57A846C62005BCC00011B3A2 /* ZZPendulumClockView.h */,
+				57A846C72005BCC00011B3A2 /* ZZPendulumClockView.m */,
+				57A846C32005B8520011B3A2 /* AnimationVC9.h */,
+				57A846C42005B8520011B3A2 /* AnimationVC9.m */,
+				57A846C92006167C0011B3A2 /* ZZWaterBallView.h */,
+				57A846CA2006167C0011B3A2 /* ZZWaterBallView.m */,
+			);
+			path = AnimationVC;
+			sourceTree = "<group>";
+		};
+		57D286341F9DD7BE0024D9F7 = {
+			isa = PBXGroup;
+			children = (
+				57B44BEE20035ACE003F468E /* bg.jpeg */,
+				57B44BEA20035ACE003F468E /* octocat-shadow.png */,
+				57B44BE820035ACE003F468E /* octocat.png */,
+				57B44BEB20035ACE003F468E /* ship-shadow.png */,
+				57B44BED20035ACE003F468E /* ship.png */,
+				57B44BEF20035ACF003F468E /* text.png */,
+				57B44BEC20035ACE003F468E /* yurt1.png */,
+				57B44BE920035ACE003F468E /* yurt2.png */,
+				57C3CDCF1FFF5EEA00D53DA4 /* gg.jpg */,
+				57B44BE0200320A8003F468E /* xzq2.jpg */,
+				57B44BDD20031F23003F468E /* xzq1.jpg */,
+				57D2863F1F9DD7BF0024D9F7 /* ZZAnimation */,
+				57D2863E1F9DD7BF0024D9F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D2863E1F9DD7BF0024D9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D2863D1F9DD7BF0024D9F7 /* ZZAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D2863F1F9DD7BF0024D9F7 /* ZZAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				57AAF3C81FFCBE9600C75E4B /* AnimationVC */,
+				57D286431F9DD7BF0024D9F7 /* AppDelegate.h */,
+				57D286441F9DD7BF0024D9F7 /* AppDelegate.m */,
+				57D2865D1F9DD85D0024D9F7 /* ViewController.h */,
+				57D2865E1F9DD85D0024D9F7 /* ViewController.m */,
+				57D286631F9DE6080024D9F7 /* ZZAnimation1.h */,
+				57D286641F9DE6080024D9F7 /* ZZAnimation1.m */,
+				57D2864C1F9DD7BF0024D9F7 /* Main.storyboard */,
+				57D2864F1F9DD7BF0024D9F7 /* Assets.xcassets */,
+				57D286511F9DD7BF0024D9F7 /* LaunchScreen.storyboard */,
+				57D286541F9DD7BF0024D9F7 /* Info.plist */,
+				57D286401F9DD7BF0024D9F7 /* Supporting Files */,
+			);
+			path = ZZAnimation;
+			sourceTree = "<group>";
+		};
+		57D286401F9DD7BF0024D9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D286411F9DD7BF0024D9F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D2863C1F9DD7BF0024D9F7 /* ZZAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D286571F9DD7BF0024D9F7 /* Build configuration list for PBXNativeTarget "ZZAnimation" */;
+			buildPhases = (
+				57D286391F9DD7BF0024D9F7 /* Sources */,
+				57D2863A1F9DD7BF0024D9F7 /* Frameworks */,
+				57D2863B1F9DD7BF0024D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZAnimation;
+			productName = ZZAnimation;
+			productReference = 57D2863D1F9DD7BF0024D9F7 /* ZZAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D286351F9DD7BE0024D9F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ZZAnimation;
+				TargetAttributes = {
+					57D2863C1F9DD7BF0024D9F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HV62E94QS4;
+					};
+				};
+			};
+			buildConfigurationList = 57D286381F9DD7BE0024D9F7 /* Build configuration list for PBXProject "ZZAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D286341F9DD7BE0024D9F7;
+			productRefGroup = 57D2863E1F9DD7BF0024D9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D2863C1F9DD7BF0024D9F7 /* ZZAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D2863B1F9DD7BF0024D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B44BDF20031F23003F468E /* xzq1.jpg in Resources */,
+				57B44BF220035ACF003F468E /* octocat-shadow.png in Resources */,
+				57D286531F9DD7BF0024D9F7 /* LaunchScreen.storyboard in Resources */,
+				57B44BF120035ACF003F468E /* yurt2.png in Resources */,
+				57B44BF720035ACF003F468E /* text.png in Resources */,
+				57D286501F9DD7BF0024D9F7 /* Assets.xcassets in Resources */,
+				57B44BE1200320A8003F468E /* xzq2.jpg in Resources */,
+				57B44BF020035ACF003F468E /* octocat.png in Resources */,
+				57B44BF320035ACF003F468E /* ship-shadow.png in Resources */,
+				57B44BF420035ACF003F468E /* yurt1.png in Resources */,
+				57D2864E1F9DD7BF0024D9F7 /* Main.storyboard in Resources */,
+				57C3CDD01FFF5EEA00D53DA4 /* gg.jpg in Resources */,
+				57B44BF520035ACF003F468E /* ship.png in Resources */,
+				57B44BF620035ACF003F468E /* bg.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D286391F9DD7BF0024D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A66331FFDD37600B3CBEC /* BaseTableView.m in Sources */,
+				57C3CDD31FFF7DA700D53DA4 /* AnimationVC3.m in Sources */,
+				57A846BF2004AF080011B3A2 /* AnimationVC8.m in Sources */,
+				57D2865F1F9DD85D0024D9F7 /* ViewController.m in Sources */,
+				57AAF3CB1FFCBEA800C75E4B /* AnimationVC1.m in Sources */,
+				57B44BE420032B20003F468E /* AnimationVC5.m in Sources */,
+				57C3CDCB1FFE5A5A00D53DA4 /* ZZSelectTableCell.m in Sources */,
+				57B44C032003699B003F468E /* JumpManager.m in Sources */,
+				57D286651F9DE6080024D9F7 /* ZZAnimation1.m in Sources */,
+				57B44BDB20031A67003F468E /* AnimationVC4.m in Sources */,
+				57B44BE720034DDF003F468E /* AnimationVC6.m in Sources */,
+				57B44BFD2003691F003F468E /* AnimationVC7.m in Sources */,
+				57C3CDCE1FFF316600D53DA4 /* ZZModel.m in Sources */,
+				57A846C82005BCC00011B3A2 /* ZZPendulumClockView.m in Sources */,
+				57B44C002003693C003F468E /* Animation7PopVC.m in Sources */,
+				57D286451F9DD7BF0024D9F7 /* AppDelegate.m in Sources */,
+				57C3CDC81FFE59BB00D53DA4 /* ZZSelectTableView.m in Sources */,
+				57A846BC2004AD8B0011B3A2 /* ZZClockView.m in Sources */,
+				57A846CB2006167C0011B3A2 /* ZZWaterBallView.m in Sources */,
+				570A66361FFDFC9C00B3CBEC /* AnimationVC2.m in Sources */,
+				57A846C22004B6A90011B3A2 /* ZZClockNumItem.m in Sources */,
+				57A846C52005B8520011B3A2 /* AnimationVC9.m in Sources */,
+				57D286421F9DD7BF0024D9F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57D2864C1F9DD7BF0024D9F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D2864D1F9DD7BF0024D9F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D286511F9DD7BF0024D9F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D286521F9DD7BF0024D9F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D286551F9DD7BF0024D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57D286561F9DD7BF0024D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D286581F9DD7BF0024D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				DEVELOPMENT_TEAM = HV62E94QS4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = ZZAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZAnimation.ZZAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57D286591F9DD7BF0024D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				DEVELOPMENT_TEAM = HV62E94QS4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = ZZAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZAnimation.ZZAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D286381F9DD7BE0024D9F7 /* Build configuration list for PBXProject "ZZAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D286551F9DD7BF0024D9F7 /* Debug */,
+				57D286561F9DD7BF0024D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D286571F9DD7BF0024D9F7 /* Build configuration list for PBXNativeTarget "ZZAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D286581F9DD7BF0024D9F7 /* Debug */,
+				57D286591F9DD7BF0024D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D286351F9DD7BE0024D9F7 /* Project object */;
+}
