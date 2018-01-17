@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		570A66331FFDD37600B3CBEC /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A66321FFDD37600B3CBEC /* BaseTableView.m */; };
 		570A66361FFDFC9C00B3CBEC /* AnimationVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A66351FFDFC9C00B3CBEC /* AnimationVC2.m */; };
+		57141082200E225A00B8721B /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 57141081200E225A00B8721B /* FFRing.png */; };
+		57141084200E228600B8721B /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 57141083200E228600B8721B /* FFTspark.png */; };
+		5735594C200738F5000FB9EF /* AnimationVC10.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735594B200738F5000FB9EF /* AnimationVC10.m */; };
+		5735594E200740D9000FB9EF /* cir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5735594D200740D9000FB9EF /* cir.png */; };
 		57A846BC2004AD8B0011B3A2 /* ZZClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846BB2004AD8B0011B3A2 /* ZZClockView.m */; };
 		57A846BF2004AF080011B3A2 /* AnimationVC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846BE2004AF080011B3A2 /* AnimationVC8.m */; };
 		57A846C22004B6A90011B3A2 /* ZZClockNumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846C12004B6A90011B3A2 /* ZZClockNumItem.m */; };
@@ -51,6 +55,13 @@
 		570A66321FFDD37600B3CBEC /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 		570A66341FFDFC9C00B3CBEC /* AnimationVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AnimationVC2.h; path = ../../../../AnimationVC2.h; sourceTree = "<group>"; };
 		570A66351FFDFC9C00B3CBEC /* AnimationVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AnimationVC2.m; path = ../../../../AnimationVC2.m; sourceTree = "<group>"; };
+		57141081200E225A00B8721B /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		57141083200E228600B8721B /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
+		57249CB5200C905500DBF4EC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		57249CB6200C907000DBF4EC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5735594A200738F5000FB9EF /* AnimationVC10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC10.h; sourceTree = "<group>"; };
+		5735594B200738F5000FB9EF /* AnimationVC10.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC10.m; sourceTree = "<group>"; };
+		5735594D200740D9000FB9EF /* cir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cir.png; sourceTree = "<group>"; };
 		57A846BA2004AD8B0011B3A2 /* ZZClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZClockView.h; sourceTree = "<group>"; };
 		57A846BB2004AD8B0011B3A2 /* ZZClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZClockView.m; sourceTree = "<group>"; };
 		57A846BD2004AF080011B3A2 /* AnimationVC8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC8.h; sourceTree = "<group>"; };
@@ -121,6 +132,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57249CB4200C905400DBF4EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57249CB6200C907000DBF4EC /* GLKit.framework */,
+				57249CB5200C905500DBF4EC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		57AAF3C81FFCBE9600C75E4B /* AnimationVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +182,8 @@
 				57A846C42005B8520011B3A2 /* AnimationVC9.m */,
 				57A846C92006167C0011B3A2 /* ZZWaterBallView.h */,
 				57A846CA2006167C0011B3A2 /* ZZWaterBallView.m */,
+				5735594A200738F5000FB9EF /* AnimationVC10.h */,
+				5735594B200738F5000FB9EF /* AnimationVC10.m */,
 			);
 			path = AnimationVC;
 			sourceTree = "<group>";
@@ -169,6 +191,9 @@
 		57D286341F9DD7BE0024D9F7 = {
 			isa = PBXGroup;
 			children = (
+				57141083200E228600B8721B /* FFTspark.png */,
+				57141081200E225A00B8721B /* FFRing.png */,
+				5735594D200740D9000FB9EF /* cir.png */,
 				57B44BEE20035ACE003F468E /* bg.jpeg */,
 				57B44BEA20035ACE003F468E /* octocat-shadow.png */,
 				57B44BE820035ACE003F468E /* octocat.png */,
@@ -182,6 +207,7 @@
 				57B44BDD20031F23003F468E /* xzq1.jpg */,
 				57D2863F1F9DD7BF0024D9F7 /* ZZAnimation */,
 				57D2863E1F9DD7BF0024D9F7 /* Products */,
+				57249CB4200C905400DBF4EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,12 +304,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57141082200E225A00B8721B /* FFRing.png in Resources */,
 				57B44BDF20031F23003F468E /* xzq1.jpg in Resources */,
 				57B44BF220035ACF003F468E /* octocat-shadow.png in Resources */,
 				57D286531F9DD7BF0024D9F7 /* LaunchScreen.storyboard in Resources */,
 				57B44BF120035ACF003F468E /* yurt2.png in Resources */,
+				57141084200E228600B8721B /* FFTspark.png in Resources */,
 				57B44BF720035ACF003F468E /* text.png in Resources */,
 				57D286501F9DD7BF0024D9F7 /* Assets.xcassets in Resources */,
+				5735594E200740D9000FB9EF /* cir.png in Resources */,
 				57B44BE1200320A8003F468E /* xzq2.jpg in Resources */,
 				57B44BF020035ACF003F468E /* octocat.png in Resources */,
 				57B44BF320035ACF003F468E /* ship-shadow.png in Resources */,
@@ -314,6 +343,7 @@
 				57B44BDB20031A67003F468E /* AnimationVC4.m in Sources */,
 				57B44BE720034DDF003F468E /* AnimationVC6.m in Sources */,
 				57B44BFD2003691F003F468E /* AnimationVC7.m in Sources */,
+				5735594C200738F5000FB9EF /* AnimationVC10.m in Sources */,
 				57C3CDCE1FFF316600D53DA4 /* ZZModel.m in Sources */,
 				57A846C82005BCC00011B3A2 /* ZZPendulumClockView.m in Sources */,
 				57B44C002003693C003F468E /* Animation7PopVC.m in Sources */,

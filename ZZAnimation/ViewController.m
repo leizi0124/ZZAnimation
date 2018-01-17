@@ -22,7 +22,7 @@
     
     self.title = @"动画";
     
-    dataArray = @[@"UIView 基础动画",
+    dataArray = @[@"UIView 基础动画 + CALayer",
                   @"CABasicAnimation 动画",
                   @"CAKeyframeAnimation 关键帧动画",
                   @"CATransition 转场动画",
@@ -30,7 +30,8 @@
                   @"MotionEffects 透视效果",
                   @"控制器转场动画",
                   @"时钟",
-                  @"水球"];
+                  @"水球",
+                  @"粒子发射器"];
     
     tableview = [[BaseTableView alloc] initWithFrame:self.view.bounds];
     tableview.dataArray = dataArray;
@@ -43,7 +44,6 @@
     Class vcClass = objc_getClass(name);
     
     UIViewController *vc = [[vcClass alloc] init];
-    vc.view.backgroundColor = [UIColor whiteColor];
     vc.title = dataArray[index];
     [self.navigationController pushViewController:vc animated:YES];
 }

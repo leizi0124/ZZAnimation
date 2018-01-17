@@ -21,21 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    clockView = [[ZZClockView alloc] initWithFrame:CGRectMake(0, 0, 200, 70)];
-    clockView.center = CGPointMake(self.view.center.x, 130);
-    [self.view addSubview:clockView];
-    
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, 70, 100, 30)];
-    label.text = @"显示秒";
-    label.textColor = [UIColor blackColor];
-    label.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:label];
-    
-    UISwitch *mySwitch = [[UISwitch alloc] init];
-    mySwitch.center = CGPointMake(self.view.frame.size.width - 50, 140);
-    [mySwitch addTarget:self action:@selector(showSecondView:) forControlEvents:UIControlEventValueChanged];
-    [self.view addSubview:mySwitch];
-    
     pendulumClockView = [[ZZPendulumClockView alloc] initWithFrame:self.view.bounds];
     pendulumClockView.type = showQuartzClock;
     [self.view addSubview:pendulumClockView];
@@ -50,6 +35,21 @@
     mySwitch1.center = CGPointMake(self.view.frame.size.width - 50, 300);
     [mySwitch1 addTarget:self action:@selector(changType:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:mySwitch1];
+    
+    clockView = [[ZZClockView alloc] initWithFrame:CGRectMake(0, 0, 200, 70)];
+    clockView.center = CGPointMake(self.view.center.x, 130);
+    [self.view addSubview:clockView];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, 70, 100, 30)];
+    label.text = @"显示秒";
+    label.textColor = [UIColor blackColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
+    
+    UISwitch *mySwitch = [[UISwitch alloc] init];
+    mySwitch.center = CGPointMake(self.view.frame.size.width - 50, 140);
+    [mySwitch addTarget:self action:@selector(showSecondView:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:mySwitch];
 }
 - (void)showSecondView:(UISwitch *)mySwitch {
     clockView.showSeconds = mySwitch.on;

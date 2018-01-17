@@ -13,15 +13,16 @@
     ZZWaterBallView *waterBall;
 }
 @end
-
 @implementation AnimationVC9
-
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     waterBall = [[ZZWaterBallView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
     waterBall.center = self.view.center;
     [self.view addSubview:waterBall];
-    
+
     UISlider *slider = [[UISlider alloc] initWithFrame:CGRectMake(50, self.view.frame.size.height - 100, self.view.frame.size.width - 100, 50)];
     [slider addTarget:self action:@selector(progressAction:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:slider];
