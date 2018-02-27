@@ -13,6 +13,9 @@
 		57141084200E228600B8721B /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 57141083200E228600B8721B /* FFTspark.png */; };
 		5735594C200738F5000FB9EF /* AnimationVC10.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735594B200738F5000FB9EF /* AnimationVC10.m */; };
 		5735594E200740D9000FB9EF /* cir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5735594D200740D9000FB9EF /* cir.png */; };
+		579211FA2022F8D400BD59A8 /* AnimationVC11.m in Sources */ = {isa = PBXBuildFile; fileRef = 579211F92022F8D400BD59A8 /* AnimationVC11.m */; };
+		57921201202323F200BD59A8 /* music2.png in Resources */ = {isa = PBXBuildFile; fileRef = 579211FF202323F200BD59A8 /* music2.png */; };
+		57921202202323F200BD59A8 /* music1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57921200202323F200BD59A8 /* music1.png */; };
 		57A846BC2004AD8B0011B3A2 /* ZZClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846BB2004AD8B0011B3A2 /* ZZClockView.m */; };
 		57A846BF2004AF080011B3A2 /* AnimationVC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846BE2004AF080011B3A2 /* AnimationVC8.m */; };
 		57A846C22004B6A90011B3A2 /* ZZClockNumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A846C12004B6A90011B3A2 /* ZZClockNumItem.m */; };
@@ -36,6 +39,7 @@
 		57B44BFD2003691F003F468E /* AnimationVC7.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BFC2003691F003F468E /* AnimationVC7.m */; };
 		57B44C002003693C003F468E /* Animation7PopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44BFF2003693C003F468E /* Animation7PopVC.m */; };
 		57B44C032003699B003F468E /* JumpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B44C022003699B003F468E /* JumpManager.m */; };
+		57BB6293204561FF00E0C260 /* XWCircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB6292204561FF00E0C260 /* XWCircleSpreadTransition.m */; };
 		57C3CDC81FFE59BB00D53DA4 /* ZZSelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDC71FFE59BB00D53DA4 /* ZZSelectTableView.m */; };
 		57C3CDCB1FFE5A5A00D53DA4 /* ZZSelectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDCA1FFE5A5A00D53DA4 /* ZZSelectTableCell.m */; };
 		57C3CDCE1FFF316600D53DA4 /* ZZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3CDCD1FFF316600D53DA4 /* ZZModel.m */; };
@@ -62,6 +66,10 @@
 		5735594A200738F5000FB9EF /* AnimationVC10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC10.h; sourceTree = "<group>"; };
 		5735594B200738F5000FB9EF /* AnimationVC10.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC10.m; sourceTree = "<group>"; };
 		5735594D200740D9000FB9EF /* cir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cir.png; sourceTree = "<group>"; };
+		579211F82022F8D400BD59A8 /* AnimationVC11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC11.h; sourceTree = "<group>"; };
+		579211F92022F8D400BD59A8 /* AnimationVC11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC11.m; sourceTree = "<group>"; };
+		579211FF202323F200BD59A8 /* music2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music2.png; sourceTree = "<group>"; };
+		57921200202323F200BD59A8 /* music1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music1.png; sourceTree = "<group>"; };
 		57A846BA2004AD8B0011B3A2 /* ZZClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZClockView.h; sourceTree = "<group>"; };
 		57A846BB2004AD8B0011B3A2 /* ZZClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZClockView.m; sourceTree = "<group>"; };
 		57A846BD2004AF080011B3A2 /* AnimationVC8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC8.h; sourceTree = "<group>"; };
@@ -98,6 +106,8 @@
 		57B44BFF2003693C003F468E /* Animation7PopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation7PopVC.m; sourceTree = "<group>"; };
 		57B44C012003699B003F468E /* JumpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpManager.h; sourceTree = "<group>"; };
 		57B44C022003699B003F468E /* JumpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpManager.m; sourceTree = "<group>"; };
+		57BB6291204561FF00E0C260 /* XWCircleSpreadTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCircleSpreadTransition.h; sourceTree = "<group>"; };
+		57BB6292204561FF00E0C260 /* XWCircleSpreadTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCircleSpreadTransition.m; sourceTree = "<group>"; };
 		57C3CDC61FFE59BB00D53DA4 /* ZZSelectTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSelectTableView.h; sourceTree = "<group>"; };
 		57C3CDC71FFE59BB00D53DA4 /* ZZSelectTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSelectTableView.m; sourceTree = "<group>"; };
 		57C3CDC91FFE5A5A00D53DA4 /* ZZSelectTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSelectTableCell.h; sourceTree = "<group>"; };
@@ -170,6 +180,8 @@
 				57B44BFF2003693C003F468E /* Animation7PopVC.m */,
 				57B44C012003699B003F468E /* JumpManager.h */,
 				57B44C022003699B003F468E /* JumpManager.m */,
+				57BB6291204561FF00E0C260 /* XWCircleSpreadTransition.h */,
+				57BB6292204561FF00E0C260 /* XWCircleSpreadTransition.m */,
 				57A846BD2004AF080011B3A2 /* AnimationVC8.h */,
 				57A846BE2004AF080011B3A2 /* AnimationVC8.m */,
 				57A846BA2004AD8B0011B3A2 /* ZZClockView.h */,
@@ -184,6 +196,8 @@
 				57A846CA2006167C0011B3A2 /* ZZWaterBallView.m */,
 				5735594A200738F5000FB9EF /* AnimationVC10.h */,
 				5735594B200738F5000FB9EF /* AnimationVC10.m */,
+				579211F82022F8D400BD59A8 /* AnimationVC11.h */,
+				579211F92022F8D400BD59A8 /* AnimationVC11.m */,
 			);
 			path = AnimationVC;
 			sourceTree = "<group>";
@@ -191,6 +205,8 @@
 		57D286341F9DD7BE0024D9F7 = {
 			isa = PBXGroup;
 			children = (
+				57921200202323F200BD59A8 /* music1.png */,
+				579211FF202323F200BD59A8 /* music2.png */,
 				57141083200E228600B8721B /* FFTspark.png */,
 				57141081200E225A00B8721B /* FFRing.png */,
 				5735594D200740D9000FB9EF /* cir.png */,
@@ -310,9 +326,11 @@
 				57D286531F9DD7BF0024D9F7 /* LaunchScreen.storyboard in Resources */,
 				57B44BF120035ACF003F468E /* yurt2.png in Resources */,
 				57141084200E228600B8721B /* FFTspark.png in Resources */,
+				57921201202323F200BD59A8 /* music2.png in Resources */,
 				57B44BF720035ACF003F468E /* text.png in Resources */,
 				57D286501F9DD7BF0024D9F7 /* Assets.xcassets in Resources */,
 				5735594E200740D9000FB9EF /* cir.png in Resources */,
+				57921202202323F200BD59A8 /* music1.png in Resources */,
 				57B44BE1200320A8003F468E /* xzq2.jpg in Resources */,
 				57B44BF020035ACF003F468E /* octocat.png in Resources */,
 				57B44BF320035ACF003F468E /* ship-shadow.png in Resources */,
@@ -339,11 +357,13 @@
 				57B44BE420032B20003F468E /* AnimationVC5.m in Sources */,
 				57C3CDCB1FFE5A5A00D53DA4 /* ZZSelectTableCell.m in Sources */,
 				57B44C032003699B003F468E /* JumpManager.m in Sources */,
+				579211FA2022F8D400BD59A8 /* AnimationVC11.m in Sources */,
 				57D286651F9DE6080024D9F7 /* ZZAnimation1.m in Sources */,
 				57B44BDB20031A67003F468E /* AnimationVC4.m in Sources */,
 				57B44BE720034DDF003F468E /* AnimationVC6.m in Sources */,
 				57B44BFD2003691F003F468E /* AnimationVC7.m in Sources */,
 				5735594C200738F5000FB9EF /* AnimationVC10.m in Sources */,
+				57BB6293204561FF00E0C260 /* XWCircleSpreadTransition.m in Sources */,
 				57C3CDCE1FFF316600D53DA4 /* ZZModel.m in Sources */,
 				57A846C82005BCC00011B3A2 /* ZZPendulumClockView.m in Sources */,
 				57B44C002003693C003F468E /* Animation7PopVC.m in Sources */,

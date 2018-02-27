@@ -31,7 +31,8 @@
                   @"控制器转场动画",
                   @"时钟",
                   @"水球",
-                  @"粒子发射器"];
+                  @"粒子发射器",
+                  @"抖音音乐盒"];
     
     tableview = [[BaseTableView alloc] initWithFrame:self.view.bounds];
     tableview.dataArray = dataArray;

@@ -1,11 +1,13 @@
 //
-//  Animation7PopVC.h
+//  AnimationVC11.h
 //  ZZAnimation
 //
-//  Created by JB-Mac on 2018/1/8.
+//  Created by JB-Mac on 2018/2/1.
 //  Copyright © 2018年 ZZAnimation. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-@interface Animation7PopVC : UIViewController
+
+@interface AnimationVC11 : UIViewController
+
 @end

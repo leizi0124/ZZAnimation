@@ -23,14 +23,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    dataArray = @[@"渐变转场",
-                  @"扩散转场"];
+    dataArray = @[@"扩散转场"];
     
     tableview = [[BaseTableView alloc] initWithFrame:self.view.bounds];
     tableview.delegate = self;
     tableview.dataArray = dataArray;
     [self.view addSubview:tableview];
-    manager = [[JumpManager alloc] initWithDelegate:self];
 }
 - (void)selectIndex:(NSInteger)index title:(NSString *)title {
     
@@ -40,11 +38,7 @@
 }
 - (void)present1 {
     Animation7PopVC *vc = [[Animation7PopVC alloc] init];
-    [manager presentVC:vc widthMode:GradualChangeMode];
-}
-- (void)present2 {
-    Animation7PopVC *vc = [[Animation7PopVC alloc] init];
-    [manager presentVC:vc widthMode:DiffusanceMode];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end
